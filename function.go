@@ -33,5 +33,5 @@ func getBiodata(nama string, umur int) string {
 // Catatan
 // defer namaFunction() tambahkan di line awal suatu function, maka ini akan selalu dipanggil setelah func selesai, misal log (destruct in function)
 // panic == die
-// recover() == menangkap parameter panic. **Tangkap di dalam func defer, karena kode fungsi dibawah panic itu di die. Tapi selain difungsi undie
+// recover() == menangkap parameter panic. **Tangkap di dalam func defer, karena kode fungsi dibawah panic itu di die. Tapi selain difungsi jadi undie
 
